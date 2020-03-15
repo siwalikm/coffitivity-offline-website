@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '7YY9J';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+    d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+    ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+		<script
+		src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+		crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<script src="assets/js/main.js"></script>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- SEO -->
+	<title>Coffitivity Offline | Desktop Application for Coffitivity.com</title>
+	<meta name="description" content="Coffitivity Offline recreates the ambient sounds of cafes to boost your creativity and help you work better."
+	/>
+	<meta name="robots" content="index, follow" />
+	<meta name="referrer" content="always" />
+
+	<!-- Social & Open Graph -->
+	<meta property="og:title" content="Coffitivity Offline" />
+	<meta property="og:description" content="Coffitivity Offline recreates the ambient sounds of cafes to boost your creativity and help you work better."
+	/>
+	<meta property="og:image" content="http://coffitivity-offline.siwalik.in/images/scrsht.jpg">
+	<!-- include your hosted image full URL -->
+	<meta property="og:url" content="http://coffitivity-offline.siwalik.in/" />
+	<meta name="twitter:title" content="Coffitivity Offline">
+	<meta name="twitter:description" content="Coffitivity Offline recreates the ambient sounds of cafes to boost your creativity and help you work better."
+	/>
+	<meta name="twitter:image" content="http://coffitivity-offline.siwalik.in/images/scrsht.jpg" />
+	<!-- include your hosted image full URL -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@siwalikm" />
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/icon.png" sizes="32x32">
+
+	<!-- Styles -->
+	<link rel='stylesheet' href='assets/css/split.css' type='text/css' media='screen' />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-106201333-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+
+<body id="fullsingle" class="page-template-page-fullsingle-split">
+
+<div class="clickCounter" style="display:none"><img src='http://www.hit-counts.com/counter.php?t=MTQxNjkzMQ==' border='0' alt='Hit Counter'></div>
+
+
+	<div class="fs-split">
+
+		<!-- Image Side -->
+		<div class="split-image">
+			<div class="split-image__inner-div">
+				<img class="split-image__inner-div__image" src="images/scr.png">
+				<!-- <img class="split-image__inner-div__image" hidden="true" src="images/scrClicked.png"> -->
+			</div>
+		</div>
+
+		<!-- Content Side -->
+		<div class="split-content">
+
+			<div class="split-content-vertically-center">
+
+				<div class="split-intro">
+					<span class="tagline">Hello world! I'm Coffitivity for Desktop. </span>
+					<h1 class="sub-tagline" align="left">I am <a href="http://www.Coffitivity.com">Coffitivity.com's</a> open-source cousin, and I run without the internet.
+						I recreate ambient sounds of cafes to boost your creativity, so you can produce better work.</h1>
+
+				</div>
+
+				<div class="split-bio">
+				</div>
+				<div id="download-container">
+					<a onclick="ga('send', 'event', 'downloadButton', 'clicked');" href="https://github.com/siwalikm/coffitivity-offline/releases/download/v1.0.2/Coffitivity.Offline-1.0.2.dmg" id="download"><i class="fa fa-apple fa-lg"></i> Download</a>
+				</div>
+
+				<div class="split-lists">
+					<h4 class="">This app is an open-source collaboration with <a target="_blank" href="https://twitter.com/Coffitivity">@Coffitivity.</a>
+						<br>
+
+						<span class="tweetLink">
+				<a target="_blank" href="https://github.com/siwalikm/coffitivity-offline"><span class="links"><i class="fa fa-github" aria-hidden="true"></i> Fork on GitHub</span></a>
+      </span>&nbsp;
+						<span class="tweetLink">
+				<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20@Coffitivity%20for%20Desktop!%20You%20can%20listen%20to%20ambient%20music%20even%20when%20you%27re%20offline.%20%F0%9F%8E%A7%20%F0%9F%9A%80%20@siwalikm%20coffitivity-offline.siwalik.in">
+					<span class="links"><i class="fa fa-twitter" aria-hidden="true"></i> Share the love via Twitter</span></a>
+						</span>&nbsp;
+						<span class="tweetLink">
+				<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?app_id=113869198637480&kid_directed_site=0&sdk=joey&u=http%3A%2F%2Fwww.siwalik.in%2FcoffitivityOffline%2F&display=popup&ref=plugin&src=share_button">
+					<span class="links"><i class="fa fa-facebook-official" aria-hidden="true"></i> Share on Facebook</span></a>
+						</span>
+
+
+					</h4>
+
+				</div>
+
+				<div class="split-credit">
+					<i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank"
+					 style="color:#E81D63!important" href="https://twitter.com/siwalik">@siwalikm</a>
+
+					<p hidden="true">&copy;2017
+						<a href="https://onepagelove.com/split">Split Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
+
+					<!-- If you love this theme, definitely checkout onepagelove.com,
+					they have some great contents and everything is available for free. ❤️ -siwalik -->
+
+					<!--
+				To edit this credit you can remove the CC3.0 license for only $5 here: https://onepagelove.com/split
+				this really helps contribute towards us developing more templates and means the world to me!
+				Cheers, Rob (@robhope)
+				-->
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
